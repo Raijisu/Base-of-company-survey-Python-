@@ -1,0 +1,23 @@
+#Base for company survey
+
+name = input('what is your name')
+
+years = int(input('what year did you begin working your job'))
+time = str(2021-years)
+
+dob = int(input(' What year were you born'))
+year = str(2021-dob)
+print(name + ' is '+ year + (' years old '))
+
+print(name + (' has been working this job for ') + time + (' years '))
+
+
+Job = input(' What is your job? ')
+
+Company = input(' What company do you work for currently? ')
+
+Gender = input("Please enter your Gender ")
+if name == "Male" or "Female":
+    print("He is a " + Job + ' at ' + Company)
+else:
+    print("She is a " + Job + ' at ' + Company)
